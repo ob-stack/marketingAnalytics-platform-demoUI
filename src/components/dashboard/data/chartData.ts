@@ -1,0 +1,118 @@
+
+export const sampleMetricData = {
+  visitors: [
+    { name: 'Jan', value: 4000 },
+    { name: 'Feb', value: 3000 },
+    { name: 'Mar', value: 5000 },
+    { name: 'Apr', value: 4500 },
+    { name: 'May', value: 6000 },
+    { name: 'Jun', value: 5500 },
+    { name: 'Jul', value: 6500 },
+  ],
+  sales: [
+    { name: 'Jan', visitors: 4000, sales: 2400, conversions: 1.4, revenue: 12000 },
+    { name: 'Feb', visitors: 3000, sales: 1398, conversions: 2.1, revenue: 9800 },
+    { name: 'Mar', visitors: 5000, sales: 3800, conversions: 2.5, revenue: 17500 },
+    { name: 'Apr', visitors: 4500, sales: 3908, conversions: 2.8, revenue: 19540 },
+    { name: 'May', visitors: 6000, sales: 4800, conversions: 2.6, revenue: 24000 },
+    { name: 'Jun', visitors: 5500, sales: 3800, conversions: 2.2, revenue: 19000 },
+    { name: 'Jul', visitors: 6500, sales: 4300, conversions: 2.4, revenue: 21500 },
+  ],
+  revenueByChannel: [
+    { name: 'Jan', direct: 4200, organic: 2400, social: 1800, email: 900, referral: 600 },
+    { name: 'Feb', direct: 3800, organic: 2100, social: 1600, email: 750, referral: 550 },
+    { name: 'Mar', direct: 5000, organic: 3000, social: 2200, email: 1100, referral: 800 },
+    { name: 'Apr', direct: 5200, organic: 3200, social: 2400, email: 1200, referral: 850 },
+    { name: 'May', direct: 5800, organic: 3500, social: 2600, email: 1300, referral: 950 },
+    { name: 'Jun', direct: 5400, organic: 3300, social: 2500, email: 1250, referral: 900 },
+    { name: 'Jul', direct: 6000, organic: 3600, social: 2700, email: 1350, referral: 1000 },
+  ],
+  deviceData: [
+    { name: 'Mobile', value: 45, color: '#3b82f6' },
+    { name: 'Desktop', value: 35, color: '#8b5cf6' },
+    { name: 'Tablet', value: 20, color: '#14b8a6' },
+  ],
+  sourceData: [
+    { name: 'Direct', value: 30, color: '#3b82f6' },
+    { name: 'Social', value: 25, color: '#8b5cf6' },
+    { name: 'Organic', value: 20, color: '#14b8a6' },
+    { name: 'Referral', value: 15, color: '#ef4444' },
+    { name: 'Email', value: 10, color: '#f97316' },
+  ],
+  adPerformance: [
+    { name: 'Campaign A', impressions: 12500, clicks: 1800, ctr: 14.4, spend: 1250, cpa: 12.5 },
+    { name: 'Campaign B', impressions: 11000, clicks: 3300, ctr: 30.0, spend: 2200, cpa: 8.8 },
+    { name: 'Campaign C', impressions: 9800, clicks: 2200, ctr: 22.4, spend: 1800, cpa: 14.7 },
+    { name: 'Campaign D', impressions: 9000, clicks: 1700, ctr: 18.9, spend: 1500, cpa: 17.5 },
+    { name: 'Campaign E', impressions: 8000, clicks: 1500, ctr: 18.8, spend: 1200, cpa: 16.0 },
+  ],
+  customerSegmentation: [
+    { name: 'New', value: 35, color: '#22c55e' },
+    { name: 'Returning', value: 40, color: '#3b82f6' },
+    { name: 'Loyal', value: 25, color: '#8b5cf6' }
+  ],
+  productPerformance: [
+    { name: 'Product A', sales: 145, revenue: 7250, profit: 2900 },
+    { name: 'Product B', sales: 132, revenue: 9240, profit: 3696 },
+    { name: 'Product C', sales: 121, revenue: 4235, profit: 1694 },
+    { name: 'Product D', sales: 89, revenue: 8010, profit: 3204 },
+    { name: 'Product E', sales: 65, revenue: 6500, profit: 2600 },
+  ],
+  daysOfWeek: [
+    { name: 'Mon', orders: 28, revenue: 1680 },
+    { name: 'Tue', orders: 32, revenue: 1920 },
+    { name: 'Wed', orders: 36, revenue: 2160 },
+    { name: 'Thu', orders: 40, revenue: 2400 },
+    { name: 'Fri', orders: 48, revenue: 2880 },
+    { name: 'Sat', orders: 52, revenue: 3120 },
+    { name: 'Sun', orders: 36, revenue: 2160 },
+  ],
+  hoursOfDay: [
+    { name: '12am', orders: 5 }, { name: '1am', orders: 3 }, { name: '2am', orders: 2 }, 
+    { name: '3am', orders: 1 }, { name: '4am', orders: 1 }, { name: '5am', orders: 2 }, 
+    { name: '6am', orders: 4 }, { name: '7am', orders: 8 }, { name: '8am', orders: 15 }, 
+    { name: '9am', orders: 25 }, { name: '10am', orders: 35 }, { name: '11am', orders: 42 }, 
+    { name: '12pm', orders: 50 }, { name: '1pm', orders: 45 }, { name: '2pm', orders: 40 }, 
+    { name: '3pm', orders: 38 }, { name: '4pm', orders: 36 }, { name: '5pm', orders: 40 }, 
+    { name: '6pm', orders: 44 }, { name: '7pm', orders: 50 }, { name: '8pm', orders: 48 }, 
+    { name: '9pm', orders: 40 }, { name: '10pm', orders: 25 }, { name: '11pm', orders: 12 }
+  ],
+  monthlyRevenue: [
+    { name: 'Jan', value: 45000 },
+    { name: 'Feb', value: 42000 },
+    { name: 'Mar', value: 58000 },
+    { name: 'Apr', value: 63000 },
+    { name: 'May', value: 75000 },
+    { name: 'Jun', value: 72000 },
+    { name: 'Jul', value: 84000 },
+    { name: 'Aug', value: 90000 },
+    { name: 'Sep', value: 87000 },
+    { name: 'Oct', value: 95000 },
+    { name: 'Nov', value: 105000 },
+    { name: 'Dec', value: 118000 },
+  ],
+  customerLifetimeValue: [
+    { name: 'Q1-2023', value: 120 },
+    { name: 'Q2-2023', value: 135 },
+    { name: 'Q3-2023', value: 145 },
+    { name: 'Q4-2023', value: 160 },
+    { name: 'Q1-2024', value: 175 },
+    { name: 'Q2-2024', value: 195 },
+  ],
+  recentOrderStatuses: [
+    { name: 'Delivered', value: 65, color: '#22c55e' },
+    { name: 'In Transit', value: 20, color: '#3b82f6' },
+    { name: 'Processing', value: 10, color: '#f97316' },
+    { name: 'Failed', value: 5, color: '#ef4444' },
+  ]
+};
+
+export const dateRangeOptions = [
+  { value: 'today', label: 'Today' },
+  { value: 'yesterday', label: 'Yesterday' },
+  { value: 'week', label: 'Last 7 days' },
+  { value: 'month', label: 'Last 30 days' },
+  { value: 'quarter', label: 'Last quarter' },
+  { value: 'year', label: 'Last year' },
+  { value: 'custom', label: 'Custom Range' },
+];
