@@ -65,7 +65,7 @@ export function ClientProfile() {
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="lastName">Last name</Label>
-                      <Input id="lastName" defaultValue="Minin" />
+                      <Input id="lastName" defaultValue="Danberg" />
                     </div>
                   </div>
                   <div className="space-y-2">
