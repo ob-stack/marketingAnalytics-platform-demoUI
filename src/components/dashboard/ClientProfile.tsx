@@ -61,7 +61,7 @@ export function ClientProfile() {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div className="space-y-2">
                       <Label htmlFor="firstName">First name</Label>
-                      <Input id="firstName" defaultValue="Anton" />
+                      <Input id="firstName" defaultValue="Dalton" />
                     </div>
                     <div className="space-y-2">
                       <Label htmlFor="lastName">Last name</Label>
@@ -71,7 +71,7 @@ export function ClientProfile() {
                   <div className="space-y-2">
                     <Label htmlFor="email">Email</Label>
                     <div className="flex items-center gap-2">
-                      <Input id="email" defaultValue="anton@dev.com" />
+                      <Input id="email" defaultValue="dalton@dev.com" />
                       <Badge className="flex items-center gap-1 bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-300">
                         <Check size={12} /> Verified
                       </Badge>
@@ -79,7 +79,7 @@ export function ClientProfile() {
                   </div>
                   <div className="space-y-2">
                     <Label htmlFor="company">Company</Label>
-                    <Input id="company" defaultValue="Acme Inc." />
+                    <Input id="company" defaultValue="XYZ Inc." />
                   </div>
                 </div>
               </div>

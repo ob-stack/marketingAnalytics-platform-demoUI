@@ -28,17 +28,17 @@ import {
 const clientsData = [
   {
     id: 1,
-    name: 'Anton',
-    email: 'anton@dev.com',
-    company: 'Upwork.',
+    name: 'Dalton Danberg',
+    email: 'dalton@dev.com',
+    company: 'XYZ',
     status: 'Active',
     lastLogin: '3 hours ago',
     sources: ['Google Analytics', 'Shopify']
   },
   {
     id: 2,
-    name: 'Sarah Johnson',
-    email: 'sarah@quantum.io',
+    name: 'Marcus Hale',
+    email: 'marcus@quantum.io',
     company: 'Quantum IO',
     status: 'Active',
     lastLogin: '1 day ago',
